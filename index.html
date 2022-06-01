@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,13 @@
 
     <title>CRUD JS</title>
 </head>
+
 <body>
 
     <div class="container">
         <div class="header">
             <span>Cadastro de Funcionários</span>
-            <button onclick="openModal()" id="new" >Incluir</i></button>
+            <button onclick="openModal()" id="new">Incluir</i></button>
         </div>
 
         <div class="divTable">
@@ -37,7 +39,7 @@
 
         <div class="modal-container">
             <div class="modal">
-                <form action="POST">
+                <form>
                     <label for="m-nome">Nome</label>
                     <input type="text" id="m-nome" required>
 
@@ -52,7 +54,8 @@
             </div>
         </div>
     </div>
-    
+
     <script src="./crudAdmin.js"></script>
 </body>
+
 </html>
